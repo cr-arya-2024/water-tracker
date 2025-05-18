@@ -1,0 +1,2393 @@
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wave-bg {
+  background-image: url('/src/assets/wave-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shining border effect */
+.shining-border {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1; /* Ensure the div has a z-index context */
+  isolation: isolate; /* Create a new stacking context */
+}
+
+.shining-border:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(148, 218, 255, 0.6);
+}
+
+.shining-border:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 200% 100%;
+  animation: borderShine 1.5s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2; /* Ensure the pseudo-element appears above the div content */
+}
+
+@keyframes borderShine {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+/* Transition effect for water level divs */
+.water-level-transition {
+  animation: waterLevelAppear 0.8s ease-in-out;
+  transform-origin: center;
+}
+/* ... existing code ... */
+
+/* Streak container animation */
+.streak-container {
+  animation: pulse 2s infinite;
+  box-shadow: 0 0 10px rgba(255, 153, 0, 0.7);
+  transition: transform 0.3s ease;
+}
+
+.streak-container:hover {
+  transform: scale(1.1);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 153, 0, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 153, 0, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 153, 0, 0.7);
+  }
+}
+@keyframes waterLevelAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Streak container animation */
+.streak-container {
+  animation: pulse 2s infinite;
+  box-shadow: 0 0 10px rgba(255, 153, 0, 0.7);
+  transition: transform 0.3s ease;
+}
+
+.streak-container:hover {
+  transform: scale(1.1);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 153, 0, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 153, 0, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 153, 0, 0.7);
+  }
+}
